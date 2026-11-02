@@ -204,6 +204,7 @@
 
   <!-- Local dashboard interactions controller -->
   <script src="{{ asset ('assetsAdmin/js/dashboard.js') }}"></script>
+  @stack('scripts')
 </body>
 
 </html>
